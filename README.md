@@ -1,6 +1,6 @@
-# Pymo_Scripts_Commands
+# Pymol_Scripts_Commands
 
-Here is a list of pymol commands frequently used:
+List of Pymol commands frequently used:
 
 1. RMSD Calculation:
    a. heavy atom:
