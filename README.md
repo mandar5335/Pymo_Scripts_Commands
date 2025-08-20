@@ -13,8 +13,8 @@ List of Pymol commands frequently used:
      ```
 2. Post docking see interactions between ligand and receptor
    ```
-   # Select residues within 5 Å of ligand
-   select near_residues, (byres (organic around 5))
+   # Select residues within 4 Å of ligand
+   select near_residues, (byres (organic around 4))
 
    # Show only ligand ↔ residue interactions (no internal ones)
    dist interactions, organic, near_residues, mode=2
