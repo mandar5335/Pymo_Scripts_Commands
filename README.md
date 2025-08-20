@@ -16,6 +16,6 @@ List of Pymol commands frequently used:
    # Select residues within 4 Å of ligand
    select near_residues, (byres (organic around 4))
 
-   # Show only ligand ↔ residue interactions (no internal ones)
+   # Show only ligand-residue interactions (no internal ones)
    dist interactions, organic, near_residues, mode=2
 ```
