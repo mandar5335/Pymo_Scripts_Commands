@@ -18,4 +18,8 @@ List of Pymol commands frequently used:
 
    # Show only ligand-residue interactions (no internal ones)
    dist interactions, organic, near_residues, mode=2
-```
+   ```
+3. Label residues at C1' atoms with resn-resi format
+   ```
+   label name C1', "%s-%s" % (resn, resi)
+   ```
